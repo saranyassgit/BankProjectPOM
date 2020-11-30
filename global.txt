@@ -1,0 +1,2 @@
+git config --global user.name saranyassgit
+git config --global user.email saranyadocuments@gmail.com
