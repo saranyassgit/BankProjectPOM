@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="53917" started-at="2020-12-04T11:12:17Z" finished-at="2020-12-04T11:13:11Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="53917" started-at="2020-12-04T11:12:17Z" finished-at="2020-12-04T11:13:11Z">
+      <class name="testCases.TC001_BugCRFileDownlaod">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:testCases.TC001_BugCRFileDownlaod@dbe50f]" name="beforeSuite" is-config="true" duration-ms="215" started-at="2020-12-04T16:42:17Z" finished-at="2020-12-04T16:42:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testCases.TC001_BugCRFileDownlaod@dbe50f]" name="beforeTest" is-config="true" duration-ms="0" started-at="2020-12-04T16:42:17Z" finished-at="2020-12-04T16:42:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="setData()[pri:0, instance:testCases.TC001_BugCRFileDownlaod@dbe50f]" name="setData" is-config="true" duration-ms="0" started-at="2020-12-04T16:42:17Z" finished-at="2020-12-04T16:42:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testCases.TC001_BugCRFileDownlaod@dbe50f]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-12-04T16:42:17Z" finished-at="2020-12-04T16:42:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="fileDownlaodIssueType(java.lang.String, java.lang.String)[pri:0, instance:testCases.TC001_BugCRFileDownlaod@dbe50f]" name="fileDownlaodIssueType" duration-ms="53057" started-at="2020-12-04T16:42:17Z" data-provider="fetchData" finished-at="2020-12-04T16:43:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://camsonline.atlassian.net/sr/jira.issueviews:searchrequest-csv-current-fields/temp/SearchRequest.csv?jqlQuery=updated+%3E%3D+-15m+AND+issuetype+%3D+Bugs+order+by+created+DESC&tempMax=1000,
+https://camsonline.atlassian.net/sr/jira.issueviews:searchrequest-csv-current-fields/temp/SearchRequest.csv?jqlQuery=updated+%3E%3D+-15m+AND+issuetype+%3D+Bugs+order+by+created+DESC&tempMax=1000&&pager/start=1000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://camsonline.atlassian.net/sr/jira.issueviews:searchrequest-csv-current-fields/temp/SearchRequest.csv?jqlQuery=issuetype+in+%28%22Bug+CR%22%2C+CER%2C+CR%2C+%22Data+Warehouse%22%2C+%22Sub-Task+CER%22%2C+%22Sub-Task+CR%22%2C+%22SubTask+Bug+CR%22%29+AND+updated+%3E%3D+-15m+order+by+created+DESC&tempMax=1000,
+https://camsonline.atlassian.net/sr/jira.issueviews:searchrequest-csv-current-fields/temp/SearchRequest.csv?jqlQuery=issuetype+in+%28%22Bug+CR%22%2C+CER%2C+CR%2C+%22Data+Warehouse%22%2C+%22Sub-Task+CER%22%2C+%22Sub-Task+CR%22%2C+%22SubTask+Bug+CR%22%29+AND+updated+%3E%3D+-15m+order+by+created+DESC&tempMax=1000&&pager/start=1000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fileDownlaodIssueType -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testCases.TC001_BugCRFileDownlaod@dbe50f]" name="afterMethod" is-config="true" duration-ms="705" started-at="2020-12-04T16:43:10Z" finished-at="2020-12-04T16:43:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testCases.TC001_BugCRFileDownlaod@dbe50f]" name="afterTest" is-config="true" duration-ms="0" started-at="2020-12-04T16:43:11Z" finished-at="2020-12-04T16:43:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:testCases.TC001_BugCRFileDownlaod@dbe50f]" name="afterSuite" is-config="true" duration-ms="185" started-at="2020-12-04T16:43:11Z" finished-at="2020-12-04T16:43:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- testCases.TC001_BugCRFileDownlaod -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

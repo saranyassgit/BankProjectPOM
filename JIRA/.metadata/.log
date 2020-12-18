@@ -1,0 +1,510 @@
+!SESSION 2018-03-05 14:52:10.488 -----------------------------------------------
+eclipse.buildId=4.7.0.I20160915-0230
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-03-05 14:52:40.574
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\rsaravanan'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-05 14:53:41.599
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.jdt.core 4 4 2018-03-05 14:53:43.216
+!MESSAGE JavaBuilder handling ImageBuilderInternalException while building: POM
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:795)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:115)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:47)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:256)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:175)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Could not delete '\\192.168.3.1\Testing Records\Automation-Selenium\BIRLAVISION\POMFRAMEWORK\11-Dec-2017\POM-master\target\classes\config.properties'.
+org.eclipse.core.runtime.CoreException: Problems encountered while deleting files.
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:138)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFile(ResourceTree.java:310)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFile(ResourceTree.java:796)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1828)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:782)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:115)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:47)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:256)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:175)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Could not delete: \\192.168.3.1\Testing Records\Automation-Selenium\BIRLAVISION\POMFRAMEWORK\11-Dec-2017\POM-master\target\classes\config.properties.
+java.nio.file.AccessDeniedException: \\192.168.3.1\Testing Records\Automation-Selenium\BIRLAVISION\POMFRAMEWORK\11-Dec-2017\POM-master\target\classes\config.properties
+	at sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(Unknown Source)
+	at sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(Unknown Source)
+	at java.nio.file.Files.deleteIfExists(Unknown Source)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:218)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:136)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFile(ResourceTree.java:310)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFile(ResourceTree.java:796)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1828)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:782)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:115)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:47)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:256)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:175)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 273 2018-03-05 14:53:43.217
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 2 org.eclipse.core.resources 4 273 2018-03-05 14:53:43.218
+!MESSAGE Could not delete '\\192.168.3.1\Testing Records\Automation-Selenium\BIRLAVISION\POMFRAMEWORK\11-Dec-2017\POM-master\target\classes\config.properties'.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Problems encountered while deleting files.
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:138)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFile(ResourceTree.java:310)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFile(ResourceTree.java:796)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1828)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:782)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:115)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:47)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:256)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:175)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Could not delete: \\192.168.3.1\Testing Records\Automation-Selenium\BIRLAVISION\POMFRAMEWORK\11-Dec-2017\POM-master\target\classes\config.properties.
+java.nio.file.AccessDeniedException: \\192.168.3.1\Testing Records\Automation-Selenium\BIRLAVISION\POMFRAMEWORK\11-Dec-2017\POM-master\target\classes\config.properties
+	at sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(Unknown Source)
+	at sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(Unknown Source)
+	at java.nio.file.Files.deleteIfExists(Unknown Source)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:218)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:136)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFile(ResourceTree.java:310)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFile(ResourceTree.java:796)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1828)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:782)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:115)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:47)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:256)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:175)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 3 org.eclipse.core.filesystem 4 273 2018-03-05 14:53:43.218
+!MESSAGE Problems encountered while deleting files.
+!SUBENTRY 4 org.eclipse.core.filesystem 4 273 2018-03-05 14:53:43.218
+!MESSAGE Could not delete: \\192.168.3.1\Testing Records\Automation-Selenium\BIRLAVISION\POMFRAMEWORK\11-Dec-2017\POM-master\target\classes\config.properties.
+!STACK 0
+java.nio.file.AccessDeniedException: \\192.168.3.1\Testing Records\Automation-Selenium\BIRLAVISION\POMFRAMEWORK\11-Dec-2017\POM-master\target\classes\config.properties
+	at sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(Unknown Source)
+	at sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(Unknown Source)
+	at java.nio.file.Files.deleteIfExists(Unknown Source)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:218)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:136)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFile(ResourceTree.java:310)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFile(ResourceTree.java:796)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1828)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:782)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:115)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:47)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:256)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:175)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-05 14:53:43.677
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-05 14:53:43.731
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-05 14:53:43.752
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jdt.core 4 4 2018-03-05 14:54:32.503
+!MESSAGE JavaBuilder handling ImageBuilderInternalException while building: POM
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:795)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:115)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:47)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:256)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:180)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Could not delete '\\192.168.3.1\Testing Records\Automation-Selenium\BIRLAVISION\POMFRAMEWORK\11-Dec-2017\POM-master\target\classes\config.properties'.
+org.eclipse.core.runtime.CoreException: Problems encountered while deleting files.
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:138)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFile(ResourceTree.java:310)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFile(ResourceTree.java:796)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1828)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:782)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:115)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:47)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:256)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:180)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Could not delete: \\192.168.3.1\Testing Records\Automation-Selenium\BIRLAVISION\POMFRAMEWORK\11-Dec-2017\POM-master\target\classes\config.properties.
+java.nio.file.AccessDeniedException: \\192.168.3.1\Testing Records\Automation-Selenium\BIRLAVISION\POMFRAMEWORK\11-Dec-2017\POM-master\target\classes\config.properties
+	at sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(Unknown Source)
+	at sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(Unknown Source)
+	at java.nio.file.Files.deleteIfExists(Unknown Source)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:218)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:136)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFile(ResourceTree.java:310)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFile(ResourceTree.java:796)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1828)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:782)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:115)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:47)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:256)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:180)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 273 2018-03-05 14:54:32.504
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 2 org.eclipse.core.resources 4 273 2018-03-05 14:54:32.504
+!MESSAGE Could not delete '\\192.168.3.1\Testing Records\Automation-Selenium\BIRLAVISION\POMFRAMEWORK\11-Dec-2017\POM-master\target\classes\config.properties'.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Problems encountered while deleting files.
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:138)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFile(ResourceTree.java:310)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFile(ResourceTree.java:796)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1828)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:782)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:115)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:47)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:256)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:180)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Could not delete: \\192.168.3.1\Testing Records\Automation-Selenium\BIRLAVISION\POMFRAMEWORK\11-Dec-2017\POM-master\target\classes\config.properties.
+java.nio.file.AccessDeniedException: \\192.168.3.1\Testing Records\Automation-Selenium\BIRLAVISION\POMFRAMEWORK\11-Dec-2017\POM-master\target\classes\config.properties
+	at sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(Unknown Source)
+	at sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(Unknown Source)
+	at java.nio.file.Files.deleteIfExists(Unknown Source)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:218)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:136)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFile(ResourceTree.java:310)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFile(ResourceTree.java:796)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1828)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:782)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:115)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:47)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:256)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:180)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 3 org.eclipse.core.filesystem 4 273 2018-03-05 14:54:32.506
+!MESSAGE Problems encountered while deleting files.
+!SUBENTRY 4 org.eclipse.core.filesystem 4 273 2018-03-05 14:54:32.506
+!MESSAGE Could not delete: \\192.168.3.1\Testing Records\Automation-Selenium\BIRLAVISION\POMFRAMEWORK\11-Dec-2017\POM-master\target\classes\config.properties.
+!STACK 0
+java.nio.file.AccessDeniedException: \\192.168.3.1\Testing Records\Automation-Selenium\BIRLAVISION\POMFRAMEWORK\11-Dec-2017\POM-master\target\classes\config.properties
+	at sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(Unknown Source)
+	at sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(Unknown Source)
+	at java.nio.file.Files.deleteIfExists(Unknown Source)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:218)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:136)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFile(ResourceTree.java:310)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFile(ResourceTree.java:796)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1828)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:782)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:115)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:47)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:256)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:180)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SESSION 2018-03-09 16:21:21.737 -----------------------------------------------
+eclipse.buildId=4.7.0.I20160915-0230
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-03-09 16:21:46.922
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\rsaravanan'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-09 16:21:52.172
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-09 16:21:52.782
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-09 16:21:52.844
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.core.jobs 4 2 2018-03-09 16:22:11.938
+!MESSAGE An internal error occurred during: "Java indexing... 84 files to index (C:\Users\rsaravanan\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar)".
+!STACK 0
+java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@8d04ec rejected from java.util.concurrent.ScheduledThreadPoolExecutor@c22344[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 772]
+	at java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.reject(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor.delayedExecute(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor.schedule(Unknown Source)
+	at org.eclipse.ui.internal.progress.ProgressManager$1.apply(ProgressManager.java:183)
+	at org.eclipse.ui.internal.progress.ProgressManager$1.apply(ProgressManager.java:1)
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(Unknown Source)
+	at org.eclipse.ui.internal.progress.ProgressManager.refreshJobInfo(ProgressManager.java:683)
+	at org.eclipse.ui.internal.progress.ProgressManager$JobMonitor.subTask(ProgressManager.java:318)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager$1ProgressJob.run(JobManager.java:338)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SESSION 2018-03-09 16:23:56.225 -----------------------------------------------
+eclipse.buildId=4.7.0.I20160915-0230
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-03-09 16:24:22.955
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\rsaravanan'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-09 16:24:27.119
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-09 16:24:27.399
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-09 16:24:27.500
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2018-03-09 16:27:00.496
+!MESSAGE Launch configuration TC001_Login references non-existing project POM.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration TC001_Login references non-existing project POM.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1408)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1283)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:226)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:207)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:552)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:425)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:309)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2018-03-09 16:27:00.498
+!MESSAGE Launch configuration TC001_Login references non-existing project POM.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2018-03-09 16:27:00.535
+!MESSAGE Launch configuration TC001_Login references non-existing project POM.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration TC001_Login references non-existing project POM.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1408)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1283)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:226)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:207)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:552)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:425)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:310)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2018-03-09 16:27:00.535
+!MESSAGE Launch configuration TC001_Login references non-existing project POM.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2018-03-09 16:27:00.551
+!MESSAGE Launch configuration TC001_Login references non-existing project POM.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration TC001_Login references non-existing project POM.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1408)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1283)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:226)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:207)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2166)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:384)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:250)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:220)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:173)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:311)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2018-03-09 16:27:00.552
+!MESSAGE Launch configuration TC001_Login references non-existing project POM.

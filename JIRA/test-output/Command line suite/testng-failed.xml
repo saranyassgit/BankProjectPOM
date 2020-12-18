@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="testCases.TC001_BugFileDownlaod">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+          <include name="setData"/>
+        </methods>
+      </class> <!-- testCases.TC001_BugFileDownlaod -->
+      <class name="testCases.TC002_CRFileDownlaod">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="CRFileDownlaod" invocation-numbers="0"/>
+          <include name="afterMethod"/>
+          <include name="setData"/>
+        </methods>
+      </class> <!-- testCases.TC002_CRFileDownlaod -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
